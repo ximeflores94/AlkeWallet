@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(38, 108, 117);
+    margin: auto;
+    padding: center;
+}
+
+h2 {
+    font-size: 40px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

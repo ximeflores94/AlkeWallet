@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit</title>
+    <link rel="stylesheet" href="miestilo.css">
+</head>
+
+<body>
+    <h2 style="text-align: center; padding-top: 20px;">Depositar</h2><br><br>
+    <div class="card" style="width: 22rem;">
+        <div class="card-body">
+            <div style="text-align: center; padding: 20px;">
+                <div class="d-grid gap-2 col-8 mx-auto">
+                    <div class="">
+                        <label for="deposit" class="col-form-label">Monto a Depositar</label>
+                    </div>
+                    <div class="col-auto">
+                        <input id="deposit" class="form-control" type="number" placeholder="0"
+                            aria-label="default input example">
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="d-grid gap-2 col-8 mx-auto">
+                <button id="btnDeposito" type="button" class="btn btn-primary"
+                    style="background-color: rgb(28, 107, 109); border-color: rgb(28,107,109);">Realizar
+                    Depósito</button>
+                <button id="btnVolverMenu" class="btn btn-secondary" type="button"
+                    style="background-color: rgb(132, 165, 174); border-color: rgb(132, 165, 174);">Volver al Menú
+                    Principal</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="miArchivo.js"></script>
+</body>
+
+</html>
